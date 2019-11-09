@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>bebop_teleop</name>
+  <version>1.0.0</version>
+  <description>Keyboard teleop for Parrot Bebop 1 or 2</description>
+
+  <maintainer email="zulsyah7@gmail.com">zul</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://zulsyah7.wixsite.com/mycv</url>
+
+  <author>Zulfhanizam Amir Syahputra</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+</package>
