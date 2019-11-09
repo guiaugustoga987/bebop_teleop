@@ -1,4 +1,4 @@
-# bebop_keyboard_teleop
+# bebop_teleop
 ROS Keyboard Teleop for Parrot Bebop 1 and 2
 
 # Installation
