@@ -1,13 +1,16 @@
 # bebop_keyboard_teleop
 ROS Keyboard Teleop for Parrot Bebop 1 and 2
 
-# Launch
-Installation.
+# Installation
+Using catkin.
 ```
 cd /catkin_ws
 git clone https://github.com/zulsyah/bebop_teleop.git src/bebop_teleop
 catkin_make
 ```
+
+# Launch
+
 
 Run.
 ```
@@ -16,7 +19,7 @@ rosrun bebop_teleop bebop_teleop.py
 
 With custom values.
 ```
-rosrun rosrun bebop_teleop bebop_teleop.py _speed:=0.9 _turn:=0.8
+rosrun bebop_teleop bebop_teleop.py _speed:=0.9 _turn:=0.8
 ```
 
 # Usage
