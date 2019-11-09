@@ -1,13 +1,13 @@
-# teleop_twist_keyboard
+# bebop_keyboard_teleop
 ROS Keyboard Teleop for Parrot Bebop 1 and 2
 
 # Launch
-Installation
-'''
+Installation.
+```
 cd /catkin_ws
-git clone 
+git clone https://github.com/zulsyah/bebop_teleop.git src/bebop_teleop
 catkin_make
-'''
+```
 
 Run.
 ```
