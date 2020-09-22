@@ -4,9 +4,11 @@ ROS Keyboard Teleop for Parrot Bebop 1 and 2
 # Installation
 Using catkin.
 ```
-cd /catkin_ws
-git clone https://github.com/zulsyah/bebop_teleop.git src/bebop_teleop
-catkin_make
+cd /catkin_ws/src
+git clone https://github.com/zulsyah/bebop_teleop.git
+cd bebop_teleop/src
+chmod +x bebop_teleop.py
+cd ~/catkin_ws && catkin_make
 ```
 
 # Launch
